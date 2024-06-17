@@ -1,0 +1,71 @@
+@import 'bootstrap/scss/bootstrap';
+
+.home {
+  background: #051b11;
+  height: 100vh;
+  color: #ffffff;
+  padding: 2%;
+
+}
+
+.home.coach {
+  background: #EFEFEF;
+  height: 100vh;
+  color: #000;
+}
+
+.home.student {
+  background: rgb(15, 18, 20);
+  height: 100vh;
+  color: #FFF;
+}
+
+.users {
+  display: flex;
+  margin-bottom: 1%;
+  align-items: center;
+  //justify-content: space-between;
+}
+
+.user-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coach-section {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coach-slot-form {
+  display: flex;
+  justify-content: space-between;
+  width: 43vw;
+  max-width: 435px;
+}
+
+.slot {
+  background: #0a3622;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  color: #ffe69c;
+  padding: 24px;
+  margin-right: 10px;
+}
+
+.slots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slot-detail {
+  cursor: pointer;
+}
+
+.slot-edit {
+  background: #ffe69c;
+  color: #0a3622
+}
