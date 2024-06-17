@@ -1,5 +1,7 @@
 # README
 
+This is a simple meeting scheduler app for students to book available slots for different coaches. This app is built using Ruby on Rails and React.
+
 * Required Ruby and Node versions:
 ```
 Ruby - 3.1.3
